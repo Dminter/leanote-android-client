@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="action_bar">#2DBD60</color>
+    <color name="action_button">#005E37</color>
+
+
+
+    <color name="primary">#2DBD60</color>
+    <color name="primary_dark">#005E37</color>
+    <color name="accent">#ff4081</color>
+
+    <color name="positive_color">#303f9f</color>
+    <color name="negative_color">#ff4081</color>
+    <color name="neutral_color">#303f9f</color>
+
+
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="card_list_background">#FFFFFF</color>
+    <color name="card_item_background_default">#FDFDFE</color>
+    <color name="card_item_background_pressed">#D8D8D8</color>
+    <color name="card_item_shadow">#10000000</color>
+
+
+    <color name="item_clicked">#1033c1fd</color>
+    <color name="icon_dark">#737373</color>
+
+
+    <color name="text_light">#FFFFFF</color>
+    <color name="text_dark">#000000</color>
+
+    <color name="swipe_color1">#E6302C</color>
+    <color name="swipe_color2">#FADD00</color>
+    <color name="swipe_color3">#68B450</color>
+    <color name="swipe_color4">#2074BC</color>
+
+    <color name="swipe_color11">#ff4081</color>
+    <color name="swipe_color21">#9c27b0</color>
+    <color name="swipe_color31">#03a9f4</color>
+    <color name="swipe_color41">#689f38</color>
+
+
+    <color name="divider_line">#f0f0f0</color>
+    <color name="divider_row">#f2f2f2</color>
+    <color name="hint">#ffd7dadc</color>
+    <color name="actionbar_color">#03a9f4</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="red">#FF0000</color>
+    <color name="red_sel">#E6302C</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="gray">#808080</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
+    <color name="black">#000000</color>
+
+</resources>

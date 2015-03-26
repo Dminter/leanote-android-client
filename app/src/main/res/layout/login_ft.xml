@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/ic_launcher" />
+
+
+        <TextView
+            android:text="@string/app_name"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            style="@style/mCenterText" />
+
+        <TextView
+            android:text="简约而不简单"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:layout_marginTop="20dp"
+            style="@style/mCenterText" />
+
+
+        <EditText
+            style="@style/mEditText"
+            android:layout_marginTop="40dp"
+            android:hint="用户名"
+            android:id="@+id/etUserName" />
+
+        <EditText
+            style="@style/mEditText"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:hint="密码"
+            android:id="@+id/etUserPWD" />
+
+        <Button
+            android:text="登录"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnLogin"
+            style="@style/mButton" />
+
+        <Button
+            android:text="注册[暂不可用]"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnReg"
+            style="@style/mRedButton" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

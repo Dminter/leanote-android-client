@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Spinner
+            android:id="@+id/spTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            style="@style/mNullBackgroundEditText"
+            android:hint="标题"
+            android:layout_marginTop="20dp"
+            android:lines="1"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/primary"
+            android:id="@+id/etTitle" />
+
+        <EditText
+            style="@style/mNullBackgroundEditText"
+            android:layout_marginTop="40dp"
+            android:hint="内容"
+            android:padding="10dp"
+            android:lines="20"
+            android:textSize="18sp"
+            android:id="@+id/etContent" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

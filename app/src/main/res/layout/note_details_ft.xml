@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/tvTag"
+                android:text="简约而不简单"
+                android:textSize="18sp"
+                android:visibility="gone"
+                android:textStyle="bold"
+                style="@style/mText" />
+
+
+            <TextView
+                android:id="@+id/tvContent"
+                android:text="简约而不简单"
+                android:textSize="18sp"
+                style="@style/mText" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
